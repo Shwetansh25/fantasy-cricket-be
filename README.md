@@ -1,4 +1,4 @@
-# Dream11 Fantasy Backend
+# Fantasy Cricket Backend
 
 Java + Spring Boot backend for a fantasy sports app like Dream11.
 

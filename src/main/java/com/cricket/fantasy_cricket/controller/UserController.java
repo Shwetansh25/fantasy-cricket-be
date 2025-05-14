@@ -27,6 +27,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
+    @CrossOrigin
     public ResponseEntity<?> login(@RequestBody Map<String, String> payload) {
         String token = userService.login(payload.get("email"), payload.get("password"));
         return ResponseEntity.ok(Collections.singletonMap("token", token));
